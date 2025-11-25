@@ -81,16 +81,6 @@ sudo mv doreth /usr/local/bin/
 </details>
 
 <br>
-    
-## Endpoint
-
-I recommend setting up [infura](https://docs.metamask.io/services/get-started/infura/), then creating a `.env` file with the follwoing content:
-
-```
-URL="https://mainnet.infura.io/v3/"YOUR_KEY"
-```
-
-<br>
 
 ## REPL
 
@@ -110,6 +100,22 @@ Once in it, you can:
 - `gas` print current gas price
 
 - `tx <hash>` get transaction details
+
+<br>
+  
+## Endpoint
+
+I recommend setting up [infura](https://docs.metamask.io/services/get-started/infura/) and creating a `.env` file with the following content:
+
+```
+URL="https://mainnet.infura.io/v3/<your-api-key>"
+```
+
+<br>
+    
+## Example
+
+<img src="assets/example.png" width="610" alt="doreth example" />
 
 <br>
 
