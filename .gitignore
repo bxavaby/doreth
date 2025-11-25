@@ -1,0 +1,8 @@
+go-out/
+bin/
+build/
+out/
+tmp/
+
+doreth
+xcomp.sh
