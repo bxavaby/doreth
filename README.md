@@ -2,7 +2,6 @@
 
 <br>
 
-![Deps](https://img.shields.io/badge/1-deps?style=plastic&label=deps&labelColor=000000&color=00ADD8)
 [![Last Commit](https://img.shields.io/github/last-commit/bxavaby/doreth?style=plastic&labelColor=000000&color=00ADD8)](https://github.com/bxavaby/doreth/commits/main)
 
 ───────────────────
@@ -80,6 +79,16 @@ sudo mv doreth /usr/local/bin/
 ```
 
 </details>
+
+<br>
+    
+## Endpoint
+
+I recommend setting up [infura](https://docs.metamask.io/services/get-started/infura/), then creating a `.env` file with the follwoing content:
+
+```
+URL="https://mainnet.infura.io/v3/"YOUR_KEY"
+```
 
 <br>
 

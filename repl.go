@@ -60,15 +60,17 @@ func repl() {
 				fmt.Print("\n")
 				continue
 			}
-			// getBalance(args[1])
+
+			getBalance(args[1])
 
 		case "block":
-			if len(args) < 2 {
-				tripleWell("Usage: block <number>")
-				fmt.Print("\n")
-				continue
+			targetBlock := "latest"
+
+			if len(args) >= 2 {
+				targetBlock = args[1]
 			}
-			// getBlock(args[1])
+
+			getBlock(targetBlock)
 
 		case "gas":
 			if len(args) > 1 {
@@ -76,7 +78,8 @@ func repl() {
 				fmt.Print("\n")
 				continue
 			}
-			// getGas(args[1])
+
+			getGas()
 
 		case "tx":
 			if len(args) < 2 {
@@ -84,7 +87,8 @@ func repl() {
 				fmt.Print("\n")
 				continue
 			}
-			// getTransaction(args[1])
+
+			getTransaction(args[1])
 
 		default:
 			msg := "Unknown command: " + cmd

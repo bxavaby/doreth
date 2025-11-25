@@ -6,6 +6,8 @@ import (
 	"fmt"
 	"os"
 	"strings"
+
+	"github.com/joho/godotenv"
 )
 
 func Logo() string {
@@ -87,6 +89,29 @@ func Run() int {
 		return 0
 
 	case "-c", "--connect", "connect":
+		// With Cloudflare's public mainnet endpoint
+		// rpcURL := "https://cloudflare-eth.com"
+		//
+		// Switched to https://mainnet.infura.io/v3/<api_key>
+		// rpcURL := "https://mainnet.infura.io/v3/blablabla"
+		//
+		// Now reading from .env, because of API lol
+
+		err := godotenv.Load()
+		if err != nil {
+			tripleWell("Warning: Error loading .env file")
+		}
+
+		rpcURL := os.Getenv("URL")
+		if rpcURL == "" {
+			ohNoes("URL not set. Please check your .env file.")
+			return 1
+		}
+
+		fmt.Print("\n")
+		singleWell("Connecting to Mainnet over HTTPS...")
+		InitClient(rpcURL)
+
 		repl()
 		return 0
 

@@ -6,3 +6,4 @@ tmp/
 
 doreth
 xcomp.sh
+.env

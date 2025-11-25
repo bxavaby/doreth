@@ -3,11 +3,11 @@
 //
 // Inside the REPL, users can run the following:
 //
-//  block <number>
-// to fetch block details (defaults to latest)
-//
 //  balance <address>
 // to check account balance
+//
+//  block <number>
+// to fetch block details (defaults to latest)
 //
 //  tx <hash>
 // to get transaction details by hash
