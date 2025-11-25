@@ -90,6 +90,8 @@ Enter the environment:
 doreth connect
 ```
 
+<br>
+
 Once in it, you can:
 
 - `balance <address>` check account balance
