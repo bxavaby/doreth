@@ -7,7 +7,7 @@
 
 ───────────────────
 
-### **doreth**  ethereum block explorer
+### **doreth** $ ethereum block explorer
 
 <br>
 
@@ -91,25 +91,14 @@ doreth connect
 ```
 
 Once in it, you can:
-```
-# Check account balance
-balance <address>
-```
 
-```
-# Fetch block details
-block <number>
-```
+- `balance <address>` check account balance
 
-```
-# Print current gas price
-gas
-```
+- `block <number>` fetch block details
 
-```
-# Get transaction details
-tx <hash>
-```
+- `gas` print current gas price
+
+- `tx <hash>` get transaction details
 
 <br>
 
