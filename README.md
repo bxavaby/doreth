@@ -7,7 +7,7 @@
 
 ───────────────────
 
-### **doreth** $ ethereum block explorer
+### **doreth** $ ethereum explorer
 
 <br>
 
