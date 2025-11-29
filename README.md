@@ -3,6 +3,7 @@
 <br>
 
 [![Last Commit](https://img.shields.io/github/last-commit/bxavaby/doreth?style=plastic&labelColor=000000&color=00ADD8)](https://github.com/bxavaby/doreth/commits/main)
+![Repo Size](https://img.shields.io/github/repo-size/bxavaby/doreth?style=plastic&labelColor=000000&color=00ADD8)
 
 ───────────────────
 
